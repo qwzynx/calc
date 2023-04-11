@@ -7,31 +7,35 @@
   padding: 0;
 }
 :root {
-  --bg-color: rgb(25, 21, 29)
+  --bg-color: rgb(25, 21, 29);
+  --font-family: 'Orbitron', sans-serif;
 }
 body {
   background-color: var(--bg-color);
 }
-.first {
-  margin-top: 150px;
-}
 .extra-space {
   margin-left: 10px;
 }
-
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.head {
+  font-family: var(--font-family);
+  font-size: 35px;
+  color: rgb(146, 158, 146);
+  margin-top: 100px;
+}
 .text-place {
   background-color: rgba(215, 231, 215, 0.8);
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding: 15px 30px;
   height: 50px;
   width: 400px;
   border-radius: 50px;
+  font-family: var(--font-family);
 }
 
 .grid-1 {
@@ -54,7 +58,9 @@ body {
   font-size: 17px;
   font-weight: bold;
   cursor: pointer;
+  font-family: var(--font-family);
 }
+
 .calculation {
   background-color: rgba(224, 145, 17, 0.8);
   height: 80px;
@@ -63,10 +69,10 @@ body {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  font-family: var(--font-family);
 }
 
 .container {
   width: 100%;
-  height: 100vh;
   background: rgb(25, 21, 29);
 }
