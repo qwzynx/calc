@@ -37,6 +37,7 @@ body {
   border-radius: 50px;
   font-size: 20px;
   font-family: var(--font-family);
+  outline-style: none;
 }
 
 .grid-1 {
