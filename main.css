@@ -1,6 +1,7 @@
 /*rgb(25, 21, 29)  rgb(224,211,211)*/
 
 * {
+  -webkit-tap-highlight-color: transparent;
   border: 0;
   box-sizing: border-box;
   margin: 0;
@@ -83,8 +84,39 @@ body {
 }
 
 
-
 .container {
   width: 100%;
   background: rgb(25, 21, 29);
+}
+
+.copy {
+  font-family: 'Orbitron', sans-serif;
+  margin: 30px;
+  color: white;
+  transition: color .5s var(--trans-timing);
+}
+
+
+@media (max-width: 500px) {
+  .calculation {
+    height: 70px;
+    width: 70px;
+  }
+  .number {
+    height: 70px;
+    width: 70px;
+  }
+  .text-place {
+    height: 40px;
+    width: 340px;
+    font-size: 14px;
+  }
+  .head {
+    font-size: 30px;
+  }
+  .copy {
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+  }
 }
